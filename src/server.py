@@ -5,7 +5,7 @@ server = Flask(__name__)
 
 @server.route("/")
 def hello():
-  return "Hello World!"
+  return "Hello World alabala!"
 
 @server.route("/hello")
 def personalised_hello():
